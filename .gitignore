@@ -1,7 +1,7 @@
 # go learn
 
 # end go learn
-
+#################
 # laravel learn
 laravel/react/.phpunit.cache
 laravel/react/node_modules
@@ -72,3 +72,31 @@ laravel/vue/.idea
 laravel/vue/.vscode
 laravel/vue/.zed
 # end laravel learn
+#################
+# vue learn
+vue/example/.DS_Store
+vue/example/node_modules
+vue/example/dist
+
+
+# local env files
+vue/example/.env.local
+vue/example/.env.*.local
+
+# Log files
+vue/example/npm-debug.log*
+vue/example/yarn-debug.log*
+vue/example/yarn-error.log*
+vue/example/pnpm-debug.log*
+
+# Editor directories and files
+vue/example/.idea
+vue/example/.vscode
+vue/example/*.suo
+vue/example/*.ntvs*
+vue/example/*.njsproj
+vue/example/*.sln
+vue/example/*.sw?
+
+# end vue learn
+#################
