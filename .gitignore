@@ -1,0 +1,50 @@
+# go learn
+
+# end go learn
+
+# laravel learn
+laravel/react/.phpunit.cache
+laravel/react/node_modules
+laravel/react/public/build
+laravel/react/public/hot
+laravel/react/public/storage
+laravel/react/storage/*.key
+laravel/react/storage/pail
+laravel/react/vendor
+laravel/react/.env
+laravel/react/.env.backup
+laravel/react/.env.production
+laravel/react/.phpactor.json
+laravel/react/.phpunit.result.cache
+laravel/react/Homestead.json
+laravel/react/Homestead.yaml
+laravel/react/auth.json
+laravel/react/npm-debug.log
+laravel/react/yarn-error.log
+laravel/react/.fleet
+laravel/react/.idea
+laravel/react/.vscode
+laravel/react/.zed
+
+laravel/v11/.phpunit.cache
+laravel/v11/node_modules
+laravel/v11/public/build
+laravel/v11/public/hot
+laravel/v11/public/storage
+laravel/v11/storage/*.key
+laravel/v11/vendor
+laravel/v11/.env
+laravel/v11/.env.backup
+laravel/v11/.env.production
+laravel/v11/.phpactor.json
+laravel/v11/.phpunit.result.cache
+laravel/v11/Homestead.json
+laravel/v11/Homestead.yaml
+laravel/v11/auth.json
+laravel/v11/npm-debug.log
+laravel/v11/yarn-error.log
+laravel/v11/.fleet
+laravel/v11/.idea
+laravel/v11/.vscode
+laravel/v11/.zed
+# end laravel learn
