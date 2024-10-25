@@ -100,3 +100,11 @@ vue/example/*.sw?
 
 # end vue learn
 #################
+#################
+#learn django 
+django/conf/gunicorn_config.py
+django/exampledjangoproject/settings.py
+#django env
+django/example
+#end learn django
+#################
