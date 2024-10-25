@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^by8sztt-c+2ksr8$e_6rns8$hiv@_gw@8iqtb%pveg(+s9k%4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '10.150.12.5','localhost', '10.150.12.130', 'example-django.brotoseno.local']
 
 
 # Application definition
@@ -37,7 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'exampleApp',
+    'crispy_forms',
+    'crispy_bootstrap4'
 ]
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
