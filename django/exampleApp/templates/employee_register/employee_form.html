@@ -3,8 +3,7 @@
 
 {% block content %}
 <form method="post" action="" autocomplete="off">
-	<!-- {{ csrf_token }} -->
-	<!-- {{ form|crispy }} -->
+	{% csrf_token %}
 	{{ form.full_name|as_crispy_field }}
 	{{ form.mobile|as_crispy_field }}
 	<div class="row">
@@ -13,6 +12,16 @@
 		</div>
 		<div class="col-md-8">
 			{{ form.position|as_crispy_field }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8">
+			<button type="submit" class="btn btn-success btn-block"><i class="fa fa-database"></i> Submit</button>
+		</div>
+		<div class="col-md-4">
+			<a href="{% url 'employee_list' %}" class="btn btn-secondary btn-block">
+				<i class="fa fa-list"> back to list</i>
+			</a>
 		</div>
 	</div>
 </form>
