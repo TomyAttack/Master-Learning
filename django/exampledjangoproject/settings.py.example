@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
+import os
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,8 +27,7 @@ SECRET_KEY = 'django-insecure-^by8sztt-c+2ksr8$e_6rns8$hiv@_gw@8iqtb%pveg(+s9k%4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '10.150.12.5','localhost', '10.150.12.130', 'example-django.brotoseno.local']
-
+ALLOWED_HOSTS = ['localhost']
 
 # Application definition
 
@@ -82,9 +83,9 @@ WSGI_APPLICATION = 'exampledjangoproject.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'your_database_name_postgre',
-        'USER': 'your_user_postgre',
-        'PASSWORD': 'your_password_postgre',
+        'NAME': 'django_example',
+        'USER': 'brotoseno',
+        'PASSWORD': 'masukaja',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -125,12 +126,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = os.path.join(BASE_DIR, 'static/')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-import os
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
